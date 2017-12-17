@@ -1,6 +1,7 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using System;
+using Microsoft.Extensions.Configuration;
 
-namespace System.Core.Extensions
+namespace App.Core.Extensions
 {
     public static class ConfigurationRootExtensions
     {

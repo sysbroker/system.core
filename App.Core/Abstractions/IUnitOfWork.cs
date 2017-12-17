@@ -1,7 +1,8 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Linq.Expressions;
 
-namespace System.Core.Abstractions
+namespace App.Core.Abstractions
 {
     public interface IUnitOfWork : IDisposable
     {

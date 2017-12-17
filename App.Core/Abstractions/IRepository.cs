@@ -1,6 +1,7 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
-namespace System.Core.Abstractions
+namespace App.Core.Abstractions
 {
     public interface IRepository<TEntity>
         where TEntity : Entity

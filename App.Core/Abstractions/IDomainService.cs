@@ -1,4 +1,6 @@
-﻿namespace System.Core.Abstractions
+﻿using System;
+
+namespace App.Core.Abstractions
 {
     public interface IDomainService : IDisposable
     {

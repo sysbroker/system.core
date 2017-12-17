@@ -1,7 +1,8 @@
-﻿using System.Core.Abstractions;
+﻿using System;
 using System.Linq;
+using App.Core.Abstractions;
 
-namespace System.Core.Persistence
+namespace App.Core.Persistence
 {
     public abstract class Repository<TEntity> : IRepository<TEntity>
         where TEntity : Entity

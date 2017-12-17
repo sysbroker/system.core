@@ -1,9 +1,10 @@
-﻿using System.Core.Abstractions;
+﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
+using App.Core.Abstractions;
 using Microsoft.EntityFrameworkCore;
 
-namespace System.Core.Persistence
+namespace App.Core.Persistence
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace System.Core.Extensions
+namespace App.Core.Extensions
 {
     public static class AutoMapExtensions
     {
